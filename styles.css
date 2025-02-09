@@ -1,40 +1,19 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(204, 204, 204);
-}
-ul li{
-	list-style-type: none;
-	
-}
-ul li a{
-	text-decoration-line: none;
-	color:black
-}
-.play{
-	border:1px solid black;
-	border-radius:5px;
-	background-color:white
-	
-	
-}
-h1{
-	text-align:center
-}
-h2{
-	text-align:center
-}
-h3{
-	text-align:center
-}
-.container{
-	border: 1px solid black;
-border-radius:5px;
-background-color: rgb(255, 255, 255);
-	padding:10px
-	
-}
-
-  .player_one {
+  body {
+            background-color: rgb(204, 204, 204);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            padding: 0;
+        }
+        li {
+            list-style-type: none;
+        }
+        a {
+            text-decoration-line: none;
+        }
+        .player_one, .player_two {
             background-color: rgb(255, 255, 255);
             padding: 10px;
             border-radius: 10px;
@@ -43,15 +22,3 @@ background-color: rgb(255, 255, 255);
             margin: 20px auto;
             width: fit-content;
         }
-	  
-  .player_two{
-	  {
-            background-color: rgb(255, 255, 255);
-            padding: 10px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            margin: 20px auto;
-            width: fit-content;
-        }
-  }
